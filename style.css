@@ -1,2 +1,38 @@
-# Greeting-App
-# Greeting-App
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: wheat;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 12px 15px red;
+    text-align: center;
+
+}
+input{
+    padding: 10px 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    border: 10px pink;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lavenderblush;
+
+}
+#greetingText{
+    margin-top: 25px;
+    font-size: 30px;
+    color: black;
+}
